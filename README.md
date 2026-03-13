@@ -52,7 +52,15 @@ The Couchbase query used is SELECT * FROM \your-collection`` by default. Update 
 Ensure that your PostgreSQL database schema matches the structure of the documents in Couchbase.
 For production environments, consider adding features like data validation, transformation, and error handling to meet specific ETL requirements.
 The application currently performs a full load. Implement incremental loading strategies for ongoing data synchronization.
+
 Contributing
 Feel free to contribute to this project by submitting pull requests or reporting issues on the GitHub repository.
+
+Create a new branch from main
+Write clear, concise code with comments
+Add unit tests for any new functionality
+Submit a pull request with a detailed description of your changes
+License
+This project is licensed under the MIT License - see LICENSE file for details
 
 Happy ETLing!
